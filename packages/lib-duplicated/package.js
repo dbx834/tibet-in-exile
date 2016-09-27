@@ -29,13 +29,19 @@ Package.onUse(function (api) {
 
   // Export assets
   api.addFiles([
-    // Bootstrap v 4.alpha
-    'lib/assets/bootstrap/grid.css',
-    'lib/assets/bootstrap/reboot.css',
-    'lib/assets/bootstrap/utilities.css',
-    // Theme
-    'lib/assets/theme.css',
+    // Foundry Files
+    'lib/assets/font-awesome.min.css',
+    'lib/assets/themify-icons.css',
+    'lib/assets/bootstrap.min.css',
+    'lib/assets/flexslider.css',
+    'lib/assets/theme-nearblack.css',
     'lib/assets/elegant-icons.min.css',
+    'lib/assets/font-roboto.css',
+    'lib/assets/custom.css',
+    // JS
+    'lib/assets/bootstrap.min.js',
+    'lib/assets/flexslider.min.js',
+    'lib/assets/parallax.js',
   ], 'client');
 
   // Client Main Module
