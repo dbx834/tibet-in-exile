@@ -141,29 +141,28 @@ class App extends React.Component {
                   <ul className="menu">
 
                     <li className="has-dropdown">
-                      <a href="#">About</a>
+                      <Link to="/about">About</Link>
                       <ul>
-                        <li><a href="#">Project</a></li>
-                        <li><a href="#">Team</a></li>
+                        <li><Link to="/project">Project</Link></li>
+                        <li><Link to="/team">Team</Link></li>
                       </ul>
                     </li>
 
                     <li className="has-dropdown">
-                      <a href="#">Exile Story</a>
+                      <Link to="/exile">Exile Story</Link>
                       <ul>
-                        <li><Link to="/find-a-school">Exile</Link></li>
-                        <li><Link to="/why-learning-wings">Democracy</Link></li>
-                        <li><Link to="/values">Survival</Link></li>
-                        <li><Link to="/teachers">Settlement</Link></li>
-                        <li><Link to="/teachers">Education</Link></li>
-                        <li><Link to="/teachers">Religion</Link></li>
-                        <li><Link to="/teachers">Culture</Link></li>
+                        <li><Link to="/exile">Exile</Link></li>
+                        <li><Link to="/democracy">Democracy</Link></li>
+                        <li><Link to="/survival">Survival</Link></li>
+                        <li><Link to="/settlement">Settlement</Link></li>
+                        <li><Link to="/education">Education</Link></li>
+                        <li><Link to="/religion">Religion</Link></li>
+                        <li><Link to="/culture">Culture</Link></li>
                       </ul>
                     </li>
                     
-                    <li><a href="#">Get The Book</a></li>
-                    
-                    <li><a href="#">Contact Us</a></li>
+                    <Link to="/get-the-book">Get The Book</Link>
+                    <Link to="/contact">Contact</Link>
 
                   </ul>
                 </div>
@@ -198,33 +197,32 @@ class App extends React.Component {
                 <div className="col-md-4 col-sm-4">
                   <h6 className="uppercase" style={{ marginBottom: 18 }}>About</h6>
                   <ul>
-                    <li><Link to="/organisation"><h5 className="uppercase mb16 fade-on-hover">Project</h5></Link></li>
-                    <li><Link to="/heritage"><h5 className="uppercase mb16 fade-on-hover">Team</h5></Link></li>
+                    <li><Link to="/project"><h5 className="uppercase mb16 fade-on-hover">Project</h5></Link></li>
+                    <li><Link to="/team"><h5 className="uppercase mb16 fade-on-hover">Team</h5></Link></li>
                   </ul>
-                  <Link to="/privacy"><h5 className="uppercase fade-on-hover" style={{ marginTop: 36, marginBottom: 18 }}>Contact Us</h5></Link>
+                  <Link to="/contact"><h5 className="uppercase fade-on-hover" style={{ marginTop: 36, marginBottom: 18 }}>Contact</h5></Link>
+                  <Link to="/get-the-book"><h5 className="uppercase fade-on-hover" style={{ marginTop: 36, marginBottom: 18 }}>Get The Book</h5></Link>
                 </div>
               
                 <div className="col-md-4 col-sm-4">
                   <h6 className="uppercase" style={{ marginBottom: 18 }}>Exile Story</h6>
                   <ul>
-                    <li><Link to="/find-a-school"><h5 className="uppercase mb16 fade-on-hover">Exile</h5></Link></li>
-                    <li><Link to="/find-a-school"><h5 className="uppercase mb16 fade-on-hover">Democracy</h5></Link></li>
-                    <li><Link to="/find-a-school"><h5 className="uppercase mb16 fade-on-hover">Survival</h5></Link></li>
-                    <li><Link to="/find-a-school"><h5 className="uppercase mb16 fade-on-hover">Settlement</h5></Link></li>
-                    <li><Link to="/find-a-school"><h5 className="uppercase mb16 fade-on-hover">Education</h5></Link></li>
-                    <li><Link to="/find-a-school"><h5 className="uppercase mb16 fade-on-hover">Religion</h5></Link></li>
-                    <li><Link to="/find-a-school"><h5 className="uppercase mb16 fade-on-hover">Culture</h5></Link></li>
+                    <li><Link to="/exile"><h5 className="uppercase mb16 fade-on-hover">Exile</h5></Link></li>
+                    <li><Link to="/democracy"><h5 className="uppercase mb16 fade-on-hover">Democracy</h5></Link></li>
+                    <li><Link to="/survival"><h5 className="uppercase mb16 fade-on-hover">Survival</h5></Link></li>
+                    <li><Link to="/settlement"><h5 className="uppercase mb16 fade-on-hover">Settlement</h5></Link></li>
+                    <li><Link to="/education"><h5 className="uppercase mb16 fade-on-hover">Education</h5></Link></li>
+                    <li><Link to="/religion"><h5 className="uppercase mb16 fade-on-hover">Religion</h5></Link></li>
+                    <li><Link to="/culture"><h5 className="uppercase mb16 fade-on-hover">Culture</h5></Link></li>
                   </ul>
-                  <Link to="/privacy"><h5 className="uppercase fade-on-hover" style={{ marginTop: 36, marginBottom: 18 }}>Get The Book</h5></Link>
                 </div>
 
                 <div className="col-md-4 col-sm-4">
                   <h6 className="uppercase" style={{ marginBottom: 18 }}>Social</h6>
                   <ul className="list-inline social-list">
-                    <li><a href="#"><i className="ti-twitter-alt"></i></a></li>
-                    <li><a href="#"><i className="ti-facebook"></i></a></li>
+                    <li><Link to="/" target="_blank"><h5 className="uppercase mb16 fade-on-hover"><i className="ti-twitter-alt"></i></h5></Link></li>
+                    <li><Link to="/" target="_blank"><h5 className="uppercase mb16 fade-on-hover"><i className="ti-facebook"></i></h5></Link></li>
                   </ul>
-                  <Link to="/privacy"><h5 className="uppercase fade-on-hover" style={{ marginTop: 36, marginBottom: 18 }}>Privacy</h5></Link>
                 </div>
 
               </div>
