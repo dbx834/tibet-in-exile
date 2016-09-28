@@ -114,7 +114,7 @@ class Homepage extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-sm-10 col-sm-offset-1">
-                <p className="lead">Following the forced escape of His Holiness the Dalai Lama in March 1959, thousands of Tibetans were forced to flee Tibet, and it was these refugees who formed the early exiled community. This the story of those who were forced into exile.</p>
+                <p className="lead">Following the forced escape of His Holiness the Dalai Lama in March 1959, thousands of Tibetans were forced to flee Tibet, and it was these refugees who formed the early exiled community. This is the story of those who were forced into exile.</p>
               </div>
             </div>
           </div>

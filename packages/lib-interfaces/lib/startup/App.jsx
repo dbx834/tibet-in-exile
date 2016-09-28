@@ -4,12 +4,6 @@ import { Link } from 'react-router';
 import { useSheet, classNames } from 'meteor/lib-utilss';
 import { jQuery as $ } from 'meteor/jquery';
 
-// ---------------------------------- Global Typographic theme
-// import Typography from 'typography';
-// import kirkhamTheme from 'typography-theme-kirkham';
-// const typography = new Typography(kirkhamTheme);
-// typography.injectStyles();
-
 // ----------------------------------------------------------------------- Component JSS Stylesheet
 const stylesheet = {
   
@@ -141,7 +135,7 @@ class App extends React.Component {
                   <ul className="menu">
 
                     <li className="has-dropdown">
-                      <Link to="/about">About</Link>
+                      <Link to="/project">About</Link>
                       <ul>
                         <li><Link to="/project">Project</Link></li>
                         <li><Link to="/team">Team</Link></li>
@@ -161,8 +155,8 @@ class App extends React.Component {
                       </ul>
                     </li>
                     
-                    <Link to="/get-the-book">Get The Book</Link>
-                    <Link to="/contact">Contact</Link>
+                    <li><Link to="/get-the-book">Get The Book</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
 
                   </ul>
                 </div>
